@@ -1,0 +1,40 @@
+body{
+    background-color: burlywood;
+}
+
+.white{
+    height: 210px;
+    width: 210px;
+    
+}
+
+.gray{
+    height: 210px;
+    width: 210px;
+    
+}
+
+.black{
+    height: 210px;
+    width: 210px;
+}
+
+.white1{
+    margin-bottom: 15px;
+}
+
+.black1{
+    margin-bottom: 15px;
+}
+
+.gray1{
+    margin-bottom: 15px;
+}
+
+#container{
+    margin-top: 30px;
+}
+
+.pagination{
+    text-align: center;
+}

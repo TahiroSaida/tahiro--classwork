@@ -7,12 +7,86 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <link rel='stylesheet' href='./style.css'>
     <title>Tahiro--classwork</title>
   </head>
   <body>
-    <h1>Intial index</h1>
+    
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tahiro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bootsrap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Other</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        <div id='container'>
+          
+            <div class="row">
+                <div class="col-lg-4 white1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title"><img class='white' src='https://cdn.shopify.com/s/files/1/1375/4645/products/hats.018_1024x1024.jpeg?v=1541979334'></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Brooklyn White</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 black1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title"><img class='black'src='data:image/jpeg;base64,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'></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Brooklyn Black</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 gray1">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"><img class='gray' src='https://cdn.shopify.com/s/files/1/0464/9357/products/california-Wool-Home-Hat_900x.png?v=1505155676'></h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Brooklyn Gray</a>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+
+        </div>   
+        
+          <div class='row'>
+            <div class='vid'>
+            <video autoplay muted loop>
+              <source src="https://media.istockphoto.com/videos/cg-animation-of-powder-explosion-with-alpha-matte-video-id670961008" type="video/mp4">
+             </video>
+        </div>
+          </div>
+
+
+          <footer>
+              <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                </nav>
+          </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
