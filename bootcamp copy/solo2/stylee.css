@@ -1,0 +1,36 @@
+.div1{
+    background: red; 
+    
+}
+.div2{
+    background: green;
+}
+
+.div3{
+    background: yellow; 
+
+}
+
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+}
+
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.me{
+    background: blue;
+
+}

@@ -1,0 +1,73 @@
+body{
+    background:darkgrey;
+
+}
+
+.side-b{
+   
+     
+}
+
+.side-a{
+   
+    
+}
+
+.nav{
+    background-color: grey;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+
+}
+
+ul li{
+    float: left;
+    margin-left: -20px;
+    margin-right: 80px;
+    border:1px solid;
+    list-style:none;
+    padding-right:10px;
+    justify-content:space-between; 
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+
+.button{
+    margin-right: 100px;
+    display:inline-block; 
+}
+
+#container{
+    padding:0 10px 0 10px;
+    
+}
+
+.clr{
+clear:both;
+text-align:center; 
+
+}
+
+footer{
+    background:grey;
+    padding:0;
+}
+
+.both{
+float: left;   
+width:500px; 
+
+
+}
+
+.welcome-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}

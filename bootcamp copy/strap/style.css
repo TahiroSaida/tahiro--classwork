@@ -1,0 +1,67 @@
+.jumbotron{
+    background: yellow;
+}
+
+.image{
+    height:350px;
+}
+
+body{
+    background: lightgreen;
+}
+
+.Shirts{
+    height:300px ;
+
+}
+ 
+.div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.pinkhat{
+    height:600px;
+    width:500px ;
+    
+}
+
+
+
+.blackhat{
+    height: 600px;
+    width: 500px;
+    justify-self: flex-end;
+
+}
+
+.whitehat{
+    height: 600px;
+    width: 500px;
+    
+}
+
+.hats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    margin-left: 5px;
+}
+
+.slogan{
+    margin-left:493px;
+    color: darkgreen;
+}
+
+.Men{
+    height:300px ;
+}
+
+.Women{
+    height: 300px;
+}
